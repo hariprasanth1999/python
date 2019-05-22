@@ -1,0 +1,13 @@
+
+b=int(input("enter starting km reading"))
+c=int(input("enter ending km reading"))
+km=c-b
+print(km)
+
+a=int(input("enter vehicle type 1)bike 2)car"))
+if(a==1):
+  cost=(km*5)
+  print(cost)
+
+
+
